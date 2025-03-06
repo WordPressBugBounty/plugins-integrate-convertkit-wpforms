@@ -1,29 +1,21 @@
 <?php
 /**
+ * Kit (formerly ConvertKit) for WPForms Plugin.
+ *
+ * @package ConvertKit
+ * @author ConvertKit
+ *
+ * @wordpress-plugin
  * Plugin Name: Kit (formerly ConvertKit) for WPForms
  * Plugin URI:  https://kit.com
  * Description: Create Kit signup forms using WPForms
- * Version:     1.7.9
+ * Version:     1.8.0
  * Author:      Kit
  * Author URI:  https://kit.com
  * Text Domain: integrate-convertkit-wpforms
  * Domain Path: /languages
- * License:     GPLv2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- *
- * This program is free software; you can redistribute it and/or modify it under
- * the terms of the GNU General Public License version 2, as published by the
- * Free Software Foundation.  You may NOT assume that you can use any other
- * version of the GPL.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE.
- *
- * @package    Integrate_ConvertKit_WPForms
- * @since      1.0.0
- * @copyright  Copyright (c) 2017, Bill Erickson
- * @license    GPL-2.0+
+ * License:     GPLv3 or later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Exit if accessed directly.
@@ -36,7 +28,7 @@ define( 'INTEGRATE_CONVERTKIT_WPFORMS_NAME', 'ConvertKitWPForms' ); // Used for 
 define( 'INTEGRATE_CONVERTKIT_WPFORMS_FILE', plugin_basename( __FILE__ ) );
 define( 'INTEGRATE_CONVERTKIT_WPFORMS_URL', plugin_dir_url( __FILE__ ) );
 define( 'INTEGRATE_CONVERTKIT_WPFORMS_PATH', __DIR__ );
-define( 'INTEGRATE_CONVERTKIT_WPFORMS_VERSION', '1.7.9' );
+define( 'INTEGRATE_CONVERTKIT_WPFORMS_VERSION', '1.8.0' );
 define( 'INTEGRATE_CONVERTKIT_WPFORMS_OAUTH_CLIENT_ID', '147qqKJeENYp5MqgL6AOShDDcLK3UQeClmcIV1ij3gI' );
 define( 'INTEGRATE_CONVERTKIT_WPFORMS_OAUTH_REDIRECT_URI', 'https://app.kit.com/wordpress/redirect' );
 
