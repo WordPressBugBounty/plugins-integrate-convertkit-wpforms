@@ -5,7 +5,7 @@ Tags: form, wpforms, convertkit, email, marketing
 Requires at least: 5.0
 Tested up to: 7.0
 Requires PHP: 7.1
-Stable tag: 1.9.4
+Stable tag: 1.9.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,12 +35,19 @@ Full plugin documentation is located [here](https://cultivatewp.com/our-plugins/
 
 No. You must first have an account on kit.com, but you do not have to use a paid plan!
 
+= Where do I report security bugs found in this plugin? =
+Please report security bugs found in the source code of the plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/48836c47-fab2-44e1-a46d-05f3fcae6c13). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 == Screenshots ==
 
 1. WPForms Kit API Connections at WPForms > Settings > Integrations > Kit
 2. WPForms Kit Form Settings when editing a WPForms Form at Marketing > Kit
 
 == Changelog ==
+
+### 1.9.5 2026-07-10
+* Fix: Uninstall: Improve Access and Refresh Token revokation
+* Updated: WordPress Libraries to 2.1.7
 
 ### 1.9.4 2026-04-20
 * Updated: WordPress 7.0 support
